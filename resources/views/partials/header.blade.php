@@ -4,7 +4,7 @@
 @endphp
 
 
-<div class="containerAll">
+<div class="containerAll header">
     <div class="mainContainer">
       <div class="contImg">
         <img src="{{ Vite::asset('public/img/dc-logo.png')}}" alt="logo dc" />
