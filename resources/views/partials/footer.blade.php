@@ -12,7 +12,7 @@
             <div class="contImgText">
                     <div class="contImg">
                         <img
-                        src="../../img/upFooter/buy-comics-digital-comics.png"
+                        src="{{ Vite::asset($image['src']) }}"
                         alt=""
                         />
                 </div>
@@ -80,11 +80,12 @@
           <button>SIGN-UP NOW!</button>
           <div class="contLink">
             <span>FOLLOW US</span>
-            <img src="/src/assets/footer-facebook.png" alt="" />
-            <img src="/src/assets/footer-twitter.png" alt="" />
-            <img src="/src/assets/footer-youtube.png" alt="" />
-            <img src="/src/assets/footer-pinterest.png" alt="" />
-            <img src="/src/assets/footer-periscope.png" alt="" />
+            <img src="{{ Vite::asset('/resources/img/downFooter/footer-facebook.png') }}" alt="" />
+            <img src="{{ Vite::asset('/resources/img/downFooter/footer-periscope.png') }}" alt="" />
+            <img src="{{ Vite::asset('/resources/img/downFooter/footer-pinterest.png') }}" alt="" />
+            <img src="{{ Vite::asset('/resources/img/downFooter/footer-twitter.png') }}" alt="" />
+            <img src="{{ Vite::asset('/resources/img/downFooter/footer-youtube.png') }}" alt="" />
+
           </div>
         </div>
       </div>

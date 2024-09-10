@@ -13,7 +13,7 @@
 
       <ul>
         @foreach ($menuItems as $item)
-            <li>{{$item['text']}}</li>
+            <li><a href="{{ route($item['name']) }}">{{ $item['text'] }}</a></li>
         @endforeach
       </ul>
     </div>

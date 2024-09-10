@@ -3,52 +3,52 @@
 return [
     [
         'text' => "CHARACTERS",
-        'url' => "#",
+        'name' => "home",
         'current' => false,
     ],
     [
         'text' => "COMICS",
-        'url' => "#",
+        'name' => "comic",
         'current' => true,
     ],
     [
         'text' => "MOVIES",
-        'url' => "#",
+        'name' => "movie",
         'current' => false,
     ],
-    [
-        'text' => "TV",
-        'url' => "#",
-        'current' => false,
-    ],
-    [
-        'text' => "GAMES",
-        'url' => "#",
-        'current' => false,
-    ],
-    [
-        'text' => "COLLECTIBLES",
-        'url' => "#",
-        'current' => false,
-    ],
-    [
-        'text' => "VIDEOS",
-        'url' => "#",
-        'current' => false,
-    ],
-    [
-        'text' => "FANS",
-        'url' => "#",
-        'current' => false,
-    ],
-    [
-        'text' => "NEWS",
-        'url' => "#",
-        'current' => false,
-    ],
-    [
-        'text' => "SHOP",
-        'url' => "#",
-        'current' => false,
-    ],
+    // [
+    //     'text' => "TV",
+    //     'name' => "televisione",
+    //     'current' => false,
+    // ],
+    // [
+    //     'text' => "GAMES",
+    //     'name' => "game",
+    //     'current' => false,
+    // ],
+    // [
+    //     'text' => "COLLECTIBLES",
+    //     'name' => "collectibles",
+    //     'current' => false,
+    // ],
+    // [
+    //     'text' => "VIDEOS",
+    //     'name' => "video",
+    //     'current' => false,
+    // ],
+    // [
+    //     'text' => "FANS",
+    //     'name' => "fan",
+    //     'current' => false,
+    // ],
+    // [
+    //     'text' => "NEWS",
+    //     'name' => "new",
+    //     'current' => false,
+    // ],
+    // [
+    //     'text' => "SHOP",
+    //     'name' => "shop",
+    //     'current' => false,
+    // ],
 ];
