@@ -1,2 +1,7 @@
-@import url("./partial/_general.scss");
-@import url("./partial/_variable.scss");
+// Importare le variabili e i mixin prima
+@import "./partial/_variable.scss";
+@import "./partial/_mixin.scss";
+
+// Poi importare gli altri file di stile
+@import "./partial/_general.scss";
+@import "./partial/_header.scss";

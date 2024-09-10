@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-
+    @include('partials.header')
     <h1>home</h1>
 </body>
 </html>
