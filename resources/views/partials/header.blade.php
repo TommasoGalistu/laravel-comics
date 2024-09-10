@@ -7,7 +7,8 @@
 <div class="containerAll">
     <div class="mainContainer">
       <div class="contImg">
-        <img src="/img/dc-logo.png" alt="logo dc" />
+        <img src="{{ Vite::asset('public/img/dc-logo.png')}}" alt="logo dc" />
+
       </div>
 
       <ul>
