@@ -3,5 +3,5 @@
 
 @section('content')
 
-<h2>Movies page</h2>
+<h2 class="page">Movies page</h2>
 @endsection
