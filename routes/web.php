@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ComicController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,18 +12,15 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+// vecchio esercizio
 Route::get('/', function () {
 
     $cards = config('dataCard');
     return view('home', compact('cards'));
 })->name('home');
 
-Route::get('/comics', function () {
-    return view('comic');
-})->name('comic');
-Route::get('/movies', function () {
-    return view('movie');
-})->name('movie');
+
+// inizio esercizio nuovo
+Route::get('/comics', [ComicController::class, 'index'])->name('comic');
 
 

@@ -12,9 +12,10 @@
       </div>
 
       <ul>
-        @foreach ($menuItems as $item)
-            <li class="{{ Route::currentRouteName() === $item['name'] ? 'active' : '' }}"><a href="{{ route($item['name']) }}">{{ $item['text'] }}</a></li>
-        @endforeach
+
+            <li><a href="{{ route('home') }}">Home</a></li>
+            <li><a href="{{ route('comic') }}">Comic</a></li>
+
       </ul>
     </div>
   </div>
