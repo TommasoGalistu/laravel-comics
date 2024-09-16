@@ -1,6 +1,6 @@
-@php
+{{-- @php
     $cards = config('dataCard')
-@endphp
+@endphp --}}
 
 @extends('layout.main')
 

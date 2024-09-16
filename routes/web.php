@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $cards = config('dataCard');
+    return view('home', compact('cards'));
 })->name('home');
 
 Route::get('/comics', function () {
